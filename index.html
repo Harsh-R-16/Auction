@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <meta name="keywords" content="Welcome to Silent Auction" />
+    <meta name="description"
+        content="Welcome to Silent Auction. Bidder will add their bid one by one and we can see who has Highest Bid." />
+    <title>Silent Auction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="auction.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <h1>Welcome to Silent Auction </h1>
+    <h3>Person 1</h3>
+    <form action="">
+        <div> <label for="name">Enter Your Name: </label><br>
+            <input type="text" id="name" required placeholder="name" name="username">
+        </div>
+        <div> <label for="pass">Enter Your Password: </label><br>
+            <input type="password" id="pass" required placeholder="same as name" name="password">
+        </div>
+        <div> <label for="amount">Enter Your Bid Amount: </label><br>
+            <input type="number" placeholder="Enter Your Amount" required name="bidamount">
+        </div>
+        <button class="btn btn-info" id="add">Add other Bidders.</button>
+    </form>
+    <section>
+        <h2>Winner of Bid</h2>
+        <p>nothing to show</p>
+    </section>
+
+
+    <button type="button" class="btn btn-success" id="winner">Who is Winner?</button>
+    <script src="auction.js"></script>
+</body>
+
+</html>

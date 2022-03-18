@@ -1,0 +1,61 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fGxpZ2h0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+section {
+  height: 300px;
+  width: 400px;
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 116px;
+  left: 800px;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px 0px;
+}
+p {
+  font-size: 25px;
+  padding: 10px;
+}
+form {
+  height: 370px;
+  width: 480px;
+  /* border: 1px solid red; */
+}
+input {
+  margin: 5px 0px;
+}
+form div {
+  width: fit-content;
+  margin: 12px 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 50px;
+  margin: 30px 50px;
+}
+button {
+  padding: 5px 30px;
+  margin: 10px 50px;
+  color: rgb(51, 40, 40);
+  border-radius: 5px;
+  border: none;
+}
+.div {
+  border: 1px solid rgb(230, 222, 222);
+  box-shadow: 1.8px 2px 2px 2px #b3aeae;
+  height: 260px;
+}
+h3 {
+  margin: 0px 50px 20px;
+}
